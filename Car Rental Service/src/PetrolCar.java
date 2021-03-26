@@ -33,15 +33,15 @@ class PetrolCar extends Car
     @Override
     public String toString()
     {
-        return "PetrolCar{" +
-                "regNo='" + regNo + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", doors=" + doors +
-                ", octane=" + octane +
-                ", kmPerL=" + kmPrL +
-                '}';
+        return "PetrolCar - " +
+                "regNo= '" + regNo + '\'' +
+                ", brand= '" + brand + '\'' +
+                ", model= '" + model + '\'' +
+                ", year= '" + year + '\'' +
+                ", doors= '" + doors + '\'' +
+                ", octane= '" + octane + '\'' +
+                ", kmPerL= '" + kmPrL + '\'' +
+                "\n";
     }
 
     public double calculateGreenOwnersTax()
