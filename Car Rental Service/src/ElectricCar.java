@@ -47,16 +47,15 @@ class ElectricCar extends Car
     @Override
     public String toString()
     {
-        return "ElectricCar{" +
-                "regNo='" + regNo + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", doors=" + doors +
-                ", batteryCapacityKWh=" + batteryCapacityKWh +
-                ", maxKm=" + maxKm +
-                ", whPrKm=" + whPrKm +
-                '}';
+        return "ElectricCar -" +
+                " regNo= '" + regNo + '\'' +
+                ", brand= '" + brand + '\'' +
+                ", model= '" + model + '\'' +
+                ", year= '" + year + '\'' +
+                ", doors= '" + doors + '\'' +
+                ", batteryCapacityKWh= '" + batteryCapacityKWh + '\'' +
+                ", maxKm= '" + maxKm + '\'' +
+                ", whPrKm= '" + whPrKm + '\'';
     }
 
     public double calculateGreenOwnersTax()
