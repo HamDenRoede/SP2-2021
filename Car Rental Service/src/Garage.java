@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Garage
 {
-    List<Car> myGarage;
+    private ArrayList<Car> myGarage = new ArrayList;
     String name;
 
     public Garage(String name)
