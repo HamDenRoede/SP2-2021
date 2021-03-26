@@ -35,15 +35,15 @@ class DieselCar extends Car
     @Override
     public String toString()
     {
-        return "DieselCar{" +
-                "regNo='" + regNo + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", doors=" + doors +
-                ", hasParticleFilter=" + hasParticleFilter +
-                ", kmPrL=" + kmPrL +
-                '}';
+        return "DieselCar -" +
+                " regNo= '" + regNo + '\'' +
+                ", brand= '" + brand + '\'' +
+                ", model= '" + model + '\'' +
+                ", year= '" + year + '\'' +
+                ", doors= '" + doors + '\'' +
+                ", hasParticleFilter= '" + hasParticleFilter + '\'' +
+                ", kmPrL= '" + kmPrL + '\'' +
+                "\n";
     }
     
     
